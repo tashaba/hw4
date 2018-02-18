@@ -1,5 +1,5 @@
-# hw4
-P&amp;E Homework 4
+
+
 
 
 var freqA = 174;
@@ -77,12 +77,13 @@ function setup() {
 
 function draw() {
   if (playing) {
-    background(0, 255, 255);
+    background(0, 33, 137);
   } else {
-    background(255, 0, 255);
+    background(255, 0, 32);
   }
-  text('CLICK HERE!,\nthen press A-L\n keys to play :)))', width / 2, 40);
+  text('CLICK HERE!,\n Press A-L\n keys to play :)))', width / 2, 40);
 }
+
 
 function keyPressed() {
   print("got key press for ", key);
