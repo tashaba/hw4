@@ -1,0 +1,17 @@
+
+-What is an object?
+Variables(var) which make up the data of an 'object'. Used to organise and keep track of code. 
+Collection named value pairs. 
+
+-How do you access a property of an object?
+You declare the variables within the specific object using '.' 
+
+-What is the index of the first item in an array?
+0
+
+-What syntax can you use to get the third item in an array?
+[2]
+
+-How do you use a variable and a loop to get every item in an array?
+use 'i' to represent different numbers within the array, so that it applies to numerous numbers when going through a loop. 
+eg.    for(var i= 0' i<4; i++) 
