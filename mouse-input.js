@@ -1,5 +1,4 @@
 
-
 var freqA = 174;
 var freqS = 196;
 var freqD = 220;
@@ -46,25 +45,25 @@ function setup() {
 function draw() {
   if (playingA) {
     noStroke();
-    fill(204, 51, 255);
+    fill(204, 51, 255, 50);
    ellipse(mouseX, mouseY, 55, 55);
   }
  if (playingS) {
    noStroke();
-    fill(102, 255, 51);
+    fill(102, 255, 51, 50);
    
    ellipse(mouseX, mouseY, 55, 55);
   }  
  if (playingD) {
    noStroke();
-    fill(255, 255, 0);
+    fill(255, 255, 0, 50);
    ellipse(mouseX, mouseY, 55, 55);
    
   }
   
    if (playingF) {
      noStroke();
-    fill(344,22,111);
+    fill(344,22,111,50);
    ellipse(mouseX, mouseY, 55, 55);
   }
   
